@@ -5,6 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GreenChain Ecosystem | Roadmap</title>
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Extra styling just for the roadmap image -->
+  <style>
+    .roadmap-hero-text {
+      max-width: 740px;
+      margin: 0 auto;
+    }
+
+    .roadmap-image-wrapper {
+      margin: 2.5rem auto 1rem auto;
+      max-width: 1100px;
+    }
+
+    .roadmap-image {
+      width: 100%;
+      height: auto;
+      border-radius: 18px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+      display: block;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .roadmap-caption {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      margin-top: 0.75rem;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -19,97 +50,49 @@
       <nav class="nav">
         <a href="mission.html">Mission</a>
         <a href="ecosystem.html">Ecosystem</a>
-        <a href="roadmap.html" class="active">Roadmap</a>
+        <a href="roadmap.html" class="nav-cta active">Roadmap</a>
         <a href="whitepaper.html">Whitepaper</a>
-        <a href="community.html" class="nav-cta">Join Community</a>
+        <a href="community.html">Join Community</a>
       </nav>
     </div>
   </header>
 
   <main>
+    <!-- Top roadmap section -->
     <section class="page-hero">
       <div class="container">
-        <h1>Roadmap</h1>
-        <p>
-          A high-level view of how GreenChain Ecosystem evolves from concept
-          to infrastructure for global environmental markets.
+        <h1>GreenChain Ecosystem Roadmap</h1>
+        <p class="roadmap-hero-text">
+          The GreenChain Ecosystem is rolling out in clear phases — from whitepaper
+          release and marketplace launch to global expansion, partnerships, and
+          large-scale user adoption. This roadmap gives a high-level view of where
+          we’re headed and how we’ll get there.
         </p>
       </div>
     </section>
 
+    <!-- Roadmap timeline image section -->
     <section class="section">
-      <div class="container narrow">
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Phase 1 — Foundations</h3>
-              <p class="timeline-meta">Concept, Research, & Community</p>
-              <ul>
-                <li>Define core problem statement and solution scope.</li>
-                <li>Draft initial whitepaper and technical vision.</li>
-                <li>Launch social channels and early community spaces.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Phase 2 — Prototype & Website</h3>
-              <p class="timeline-meta">Visibility & Early Experiments</p>
-              <ul>
-                <li>Launch public website and ecosystem documentation.</li>
-                <li>Design prototype flows for asset tokenization.</li>
-                <li>Begin outreach to climate projects and partners.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Phase 3 — Testnet & Integrations</h3>
-              <p class="timeline-meta">Network & Protocol Design</p>
-              <ul>
-                <li>Launch testnet for core climate asset primitives.</li>
-                <li>Integrate data and verification partners.</li>
-                <li>Refine governance and token concepts with community.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Phase 4 — Mainnet & Ecosystem Growth</h3>
-              <p class="timeline-meta">Scale & Adoption</p>
-              <ul>
-                <li>Deploy mainnet for production-grade use cases.</li>
-                <li>Onboard anchor projects and institutional participants.</li>
-                <li>Support builders creating on-chain climate solutions.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item future">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Beyond</h3>
-              <p class="timeline-meta">Community-Governed Evolution</p>
-              <p>
-                The long-term direction of GreenChain Ecosystem is intended to
-                be governed by its community and stakeholders, adapting as
-                technology, regulation, and climate needs evolve.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <p class="note">
-          This roadmap is directional and may adjust as we learn, partner, and
-          co-create with the community.
+      <div class="container">
+        <h2 class="text-center">Timeline Overview</h2>
+        <p class="text-center">
+          Explore the major milestones from the initial whitepaper release to
+          global marketing campaigns and ecosystem growth.
         </p>
+
+        <div class="roadmap-image-wrapper">
+          <!-- Make sure this filename matches the one you uploaded -->
+          <img
+            src="roadmap-timeline.png"
+            alt="GreenChain Ecosystem roadmap timeline from 2025 Q4 Whitepaper Release through 2026 expansion, partnerships, and global marketing."
+            class="roadmap-image"
+          />
+          <p class="roadmap-caption text-center">
+            High-level roadmap including whitepaper release, marketplace
+            development, CEX listings, mobile app launch, and global marketing
+            initiatives.
+          </p>
+        </div>
       </div>
     </section>
   </main>
@@ -124,4 +107,5 @@
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
-</html> 
+</html>
+
